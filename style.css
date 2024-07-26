@@ -1,0 +1,186 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  height: 10%;
+  background-color: #0f204b;
+}
+
+#nav > img {
+  height: 50px;
+}
+
+#side {
+  display: flex;
+  justify-content: space-between;
+  align-items: cente;
+}
+
+#nav h2 {
+  text-decoration: none;
+  color: white;
+}
+
+#side a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#second {
+  height: 90%;
+  width: 100%;
+  background-image: url(./mainimg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#second > h1 {
+  color: white;
+  margin-top: 250px;
+  font-size: 130px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: Edwardian Script ITC;
+}
+
+#box1 {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.samebox {
+  height: 70%;
+  width: 48%;
+}
+
+#first {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+#first > h2 {
+  font-size: 28px;
+  font-family: Montserrat Thin;
+  margin-bottom: 10px;
+}
+
+#first > p {
+  font-family: Montserrat;
+  line-height: 25px;
+  color: darkgray;
+}
+
+#scd {
+  background-image: url(./box1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#border {
+  width: 80px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: #f0ab00;
+}
+
+#box2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+
+.equal {
+  height: 70%;
+  width: 48%;
+}
+
+#l {
+  background-image: url(./box2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#r > h2 {
+  margin-bottom: 5px;
+  font-size: 50px;
+  font-family: Montserrat;
+}
+
+#r > p {
+  color: darkgray;
+  line-height: 25px;
+  font-size: 15px;
+  font-family: Montserrat;
+  margin-bottom: 15px;
+}
+
+#r > button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  background-color: #0f204b;
+  color: #f0ab00;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+#footer {
+  height: 50%;
+  width: 100%;
+  background-color: #0f204b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer > h1 {
+  color: #f0ab00;
+  line-height: 25px;
+  font-size: 45px;
+  font-family: Montserrat;
+  margin-bottom: 45px;
+}
+
+#footer > p {
+  color:white;
+  width: 85%;
+  line-height: 25px;
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 15px;
+}
